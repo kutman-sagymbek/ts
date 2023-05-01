@@ -1,0 +1,97 @@
+.App {
+  box-sizing: border-box;
+
+
+  .main {
+    display: flex;
+    justify-content: center;
+
+    .tod-box {
+      margin-top: 40px;
+      width: 400px;
+      background-color: mediumpurple;
+      text-align: center;
+      padding: 40px;
+
+
+      form {
+        display: flex;
+      }
+
+      #todo_input {
+        color: black;
+        width: 300px;
+        height: 50px;
+        border: 2px solid white;
+        background-color: white;
+        text-align: center;
+      }
+
+      .todo_btn {
+        width: 80px;
+        height: 56px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+      }
+
+      .my-tasks {
+        width: 180px;
+        height: 46px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        margin-top: 10px;
+      }
+    }
+
+    .todo-center {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      .todo-cards {
+        box-shadow: 0 0 15px 0 mediumpurple;
+        margin-top: 40px;
+        width: 40%;
+        background-color: #9370db;
+        padding: 30px;
+        text-align: center;
+
+        .todo-card {
+          margin: 10px auto;
+          padding: 0 15px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 80%;
+          height: 50px;
+          background-color: white;
+
+          #task-text {
+            color: black;
+          }
+
+          .cross {
+            width: 30px;
+            height: 30px;
+          }
+        }
+
+        .addNewTask {
+            width: 180px;
+            height: 46px;
+            border: 2px solid white;
+            background-color: transparent;
+            color: white;
+        }
+      }
+    }
+  }
+
+
+
+}
+
+
+

@@ -1,0 +1,14 @@
+.header {
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    background-color: mediumpurple;
+    text-align: center;
+    padding: 50px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+}
+
